@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kabar Nusantara</title>
+    <style>
+        body {
+            background-color: #f4ecd8;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 4px double #000;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .headline {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            column-count: 2;
+            column-gap: 40px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            border-top: 2px solid #000;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+
+        .stamp {
+            margin-top: 20px;
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KABAR NUSANTARA</h1>
+    <p>Edisi Khusus • Independen sejak 1983</p>
+</header>
+
+<div class="container">
+    <div class="headline">
+        Warga Heboh, Televisi Disebut Bisa Berbicara Sendiri Saat Malam
+    </div>
+
+    <div class="date">
+        Jakarta, 12 Agustus 1987
+    </div>
+
+    <div class="content">
+        Pemirsa,dikabarkan anak SMP N 1123456 dilecehkan oleh anak kelas 9c yang berinisial J,dikabarkan status pelaku masih Buronan.
+      
+    </div>
+
+    <div class="stamp">
+        *Berita ini ditulis ulang oleh redaksi Kabar Nusantara
+    </div>
+</div>
+
+<footer>
+    © 1987 Kabar Nusantara • Dicetak untuk konsumsi umum
+</footer>
+
+</body>
+</html>
