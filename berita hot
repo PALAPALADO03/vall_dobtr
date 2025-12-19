@@ -2,102 +2,86 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Kabar Nusantara</title>
+    <title>Berita Desa - 1984</title>
     <style>
         body {
-            background-color: #f4ecd8;
+            background-color: #f4f1e8;
             font-family: "Times New Roman", serif;
-            margin: 0;
-            padding: 0;
-            color: #222;
+            color: #1a1a1a;
+            margin: 40px;
         }
 
-        header {
-            text-align: center;
-            border-bottom: 4px double #000;
-            padding: 20px;
-        }
-
-        header h1 {
-            font-size: 48px;
-            margin: 0;
-            letter-spacing: 2px;
-        }
-
-        header p {
-            font-size: 14px;
-            margin-top: 5px;
-        }
-
-        .container {
-            width: 80%;
+        .koran {
+            max-width: 800px;
             margin: auto;
-            padding: 20px;
+            border: 2px solid #000;
+            padding: 30px;
+            background-color: #fffdf5;
         }
 
-        .headline {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            letter-spacing: 2px;
+            border-bottom: 3px solid black;
+            padding-bottom: 10px;
         }
 
-        .date {
+        .tanggal {
+            text-align: center;
             font-size: 14px;
             margin-bottom: 20px;
         }
 
-        .content {
-            column-count: 2;
-            column-gap: 40px;
+        h2 {
+            font-size: 26px;
+            margin-top: 20px;
+        }
+
+        p {
             font-size: 18px;
             line-height: 1.6;
+            text-align: justify;
         }
 
-        footer {
-            border-top: 2px solid #000;
-            text-align: center;
-            padding: 10px;
-            font-size: 12px;
-            margin-top: 40px;
-        }
-
-        .stamp {
-            margin-top: 20px;
-            font-size: 14px;
+        .penulis {
             font-style: italic;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>METRO HUB</h1>
-    <p>Edisi Khusus • Independen sejak 2025</p>
-</header>
+<div class="koran">
+    <h1>SUARA DESA NUSANTARA</h1>
+    <div class="tanggal">Edisi Senin, 12 Agustus 1984</div>
 
-<div class="container">
-    <div class="headline">
-        HEBOH!!,dikabarkan ada pembalap baru dari PAINDOAN
-    </div>
+    <h2>Joy dan Kerbau Rembo Menjadi Kebanggaan Warga Desa</h2>
 
-    <div class="date">
-        BALIGE, 18 DESEMBER 2025
-    </div>
+    <p>
+        Desa Suka Makmur kini dikenal berkat sosok seorang pemuda bernama Joy yang
+        setiap pagi terlihat menggiring kerbaunya menuju sawah. Kerbau tersebut
+        bernama Rembo, hewan ternak yang telah lama membantu Joy dalam mengolah
+        lahan pertanian milik keluarganya.
+    </p>
 
-    <div class="content">
-        dikabarkan ada seorang siswi SMP 4 BALIGE yang memiliki nama bapak bernama SABAR SIAGIAN.
-SABAR R nya apa?SABAR RACING
-      
-    </div>
+    <p>
+        Rembo dikenal sebagai kerbau yang kuat dan jinak. Kedekatan antara Joy dan
+        Rembo sering menarik perhatian warga, karena Joy kerap berbicara dan
+        memperlakukan kerbaunya layaknya sahabat sendiri, sebuah pemandangan khas
+        pedesaan di era ini.
+    </p>
 
-    <div class="stamp">
-        *Berita ini ditulis ulang oleh redaksi Kabar MYSTERIO
+    <p>
+        Kepala desa menyampaikan bahwa kisah Joy dan Rembo mencerminkan nilai-nilai
+        ketekunan, kesederhanaan, serta hubungan harmonis antara manusia dan alam.
+        Ia berharap semangat tersebut dapat terus hidup di tengah perkembangan zaman.
+    </p>
+
+    <div class="penulis">
+        — Dilaporkan oleh Wartawan Desa
     </div>
 </div>
-
-<footer>
-    © 1987 Kabar Nusantara • Dicetak untuk konsumsi umum
-</footer>
 
 </body>
 </html>
